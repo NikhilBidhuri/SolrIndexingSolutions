@@ -3,6 +3,7 @@ Problem 1 : Sitecore Image Field not Indexing in Solr field
 By default Solr don't index Sitecore Image Fields, so to get Image fields in Solr index we need to make a computed field and use MediaManager.GetMediaUrl method to get Sitecore Image Url
 
 Here is the code for computed field: ImageComputedField.cs
+
 Problem 2 : Sitecore Richtext Field not returning raw HTML in Solr Field
 By default Solr return text of Richtext not raw HTML, so we will make a config which will tell sitecore to index a particular field as Richtext and return HTML
 
